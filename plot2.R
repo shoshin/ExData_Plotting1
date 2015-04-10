@@ -27,6 +27,8 @@ my_data$DateTime<- strptime(paste(my_data$Date,my_data$Time), "%d/%m/%Y %H:%M:%S
 
 
 #Plot Number 2
+# Went with default white background - for transparent we just add bg="transparent" 
+# png('plot2.png',width = 480, height = 480,bg="transparent")
 
 png('plot2.png',width = 480, height = 480)
 
